@@ -7,7 +7,7 @@ using namespace std;
 
 static int testCount = 0;
 static const int testTotal = 20;
-
+// written by Chris Huynh
 template <typename T>
 bool assertTrue(const string&, const T&, const T&);
 
@@ -75,6 +75,7 @@ cout << "\033[32m" << "PASSED "
 testCount++;
 return true;
 }
+	// written by Chris Huynh
 // Red colored text
 cout << "\033[31m" << "FAILED "
 << "\033[0m" << nameOfTest << ": expected " << expected << " but actual " << actual << endl;
@@ -95,3 +96,6 @@ cout << "\033[31m" << "FAILED "
 << "\033[0m" << nameOfTest << ": expected " << expected << " but actually " << actual << endl;
 return false;
 }
+
+// written by Chris Huynh
+
