@@ -14,7 +14,7 @@
 
 #include "BookList.hpp"
 
-namespace // unnamed, autonomous namespace
+namespace // written by Chris Huynh
 
 {
 
@@ -393,3 +393,5 @@ _bookArray[i++] = newBook;
 _books_array_size = i;
 
 }
+
+// written by Chris Huynh
