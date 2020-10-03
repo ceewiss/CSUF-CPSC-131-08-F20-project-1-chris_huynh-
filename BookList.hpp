@@ -8,6 +8,8 @@
 
 #include <string>
 
+// written by Chris Huynh
+
 class Book
 
 {
@@ -106,11 +108,10 @@ std::size_t size() const; // TO DO
 
 std::size_t find( const Book & book ) const; // TO DO // returns the (zero-based) offset from top of list where the book is found, or the size of the list if the book is not found
 
-Book operator[](std::size_t index) const;// TO DO
-
-// returns the book at the specified <index>
+Book operator[](std::size_t index) const; // TO DO // returns the book at the specified <index>
 
 // read from a file
+// written by Chris Huynh
 
 void readInFile(const std::string& filename);
 
@@ -125,3 +126,5 @@ std::size_t _books_array_size; // number of books in the list
 Book * _bookArray; // the dynamic array of books
 
 };
+
+// written by Chris Huynh
