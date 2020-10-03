@@ -1,4 +1,4 @@
-#include <algorithm> // find(), move(), move_backward(), equal(), swap(), lexicographical_compare()
+#include <algorithm> // find(), move(), move_backward(), equal(), swap(), lexicographical_compare() // written by Chris Huynh
 
 #include <cstddef> // size_t
 
@@ -60,6 +60,8 @@ _price ( price )
 
 {} // Avoid setting values in constructor's body (when possible)
 
+// written by Chris Huynh
+
 /*************************
 
 ** Queries or getters
@@ -87,6 +89,8 @@ double Book::get_price() const
 ** Mutators or setters
 
 ************************************/
+
+// written by Chris Huynh
 
 void Book::set_isbn( const std::string& newIsbn )
 
@@ -162,7 +166,7 @@ return stream;
 
 }
 
-
+// written by Chris Huynh
 
 /*************************************************
 
@@ -242,6 +246,8 @@ bookList._bookArray[counter++] = std::move(book);
 
 if (counter < bookList._capacity)
 
+// written by Chris Huynh
+
 // read less books than <_capacity>
 
 // so set it to actual number of books read
@@ -291,6 +297,8 @@ BookList & BookList::operator+=( const BookList & rhs)
 // as long as it does not exceed <_capacity>
 
 // If exceeds, then stop adding
+
+// written by Chris Huynh
 
 int right_hand_book_list_index = 0;
 
@@ -355,7 +363,7 @@ if(_bookArray[i] == book) {
 return i;
 
 }
-
+// written by Chris Huynh
 }
 
 return _books_array_size;
@@ -373,6 +381,8 @@ return _bookArray[index];
 ** Read from the file
 
 **************************/
+
+// written by Chris Huynh
 
 void BookList::readInFile(const std::string& filename) {
 
